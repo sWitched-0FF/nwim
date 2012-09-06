@@ -5,6 +5,42 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.1.5.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript">
+	  function mycarousel_initCallback(carousel) {
+		$('.jcarousel-control a').bind('click', function() {
+			carousel.scroll($.jcarousel.intval($(this).text()));
+			return false;
+		});
+		$('#mycarousel2-next').bind('click', function() {
+			carousel.next();
+			return false;
+		});
+		$('#mycarousel2-prev').bind('click', function() {
+			carousel.prev();
+			return false;
+		});
+	  };
+
+	  $(document).ready(function() {
+		$('#mycarousel').jcarousel({
+		  scroll:1,
+		  auto:5,
+		  wrap: 'circular',
+		  buttonNextHTML: null,
+		  buttonPrevHTML: null
+		});
+		$('#mycarouse2').jcarousel({
+		  scroll:1,
+		  auto:3,
+		  wrap: 'circular',
+		  initCallback: mycarousel_initCallback,
+		  buttonNextHTML: null,
+		  buttonPrevHTML: null
+		});
+	  });
+	</script>
 </head>
 <body>
 	<a name="top"></a>
@@ -60,7 +96,7 @@
 			</div>
 		</div>
 		<div class="mainBanner">
-			<ul style="margin-left:-1000px;">
+			<ul id="mycarousel" >
 				<li><a href="/">
 					<img src="images/mainbanner.jpg" alt="Готовим будущих президентов"/>
 					<span class="text">Готовим будущих президентов 1</span></a>
@@ -138,7 +174,7 @@
 				</ul>
 			</div>
 			<div class="slidesWrapper">
-				<ul class="slidesList">
+				<ul class="slidesList" id="mycarouse2">
 					<li>
 						<a href="/">
 							<img src="images/photo1.jpg" alt=""/>
@@ -181,9 +217,21 @@
 							<span class="slideTitle">Конференции</span>
 						</a>
 					</li>
+					<li>
+						<a href="/">
+							<img src="images/photo1.jpg" alt=""/>
+							<span class="slideTitle">Конференции</span>
+						</a>
+					</li>
+					<li>
+						<a href="/">
+							<img src="images/photo1.jpg" alt=""/>
+							<span class="slideTitle">Конференции</span>
+						</a>
+					</li>
 				</ul>
-				<a href="#" class="prevSlide">&lt;</a>
-				<a href="#" class="nextSlide">&gt;</a>
+				<a href="#" class="prevSlide" id="mycarousel2-prev">&lt;</a>
+				<a href="#" class="nextSlide" id="mycarousel2-next">&gt;</a>
 			</div>
 			<div class="moreBanners">
 				<ul>
