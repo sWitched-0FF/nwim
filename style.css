@@ -99,15 +99,16 @@ a:hover{color:#234e9c;text-decoration:none;cursor:pointer;}
 .anounceCol .prevItem .moreLink{display:block;height:16px;}
 .anounceCol .prevItem .moreLink a{font-size:12px;line-height:16px;display:block;padding:0 0 0 20px;float:right;background:url(images/media.png) -1px -98px no-repeat;}
 
-.slidesWrapper{display:block;width:1000px;height:150px;border-top:1px solid #ffdc4c;padding:15px 0;margin:0;position:relative;overflow:hidden;clear:both;}
-.slidesView{display:block;width:1000px;height:120px;margin:0 auto;overflow:hidden;}
+.slidesWrapper{display:block;width:1000px;min-height:120px;border-top:1px solid #ffdc4c;padding:15px 0 45px 0;margin:0;position:relative;overflow:hidden;clear:both;}
+.slidesView{display:block;width:1000px;min-height:120px;margin:0 auto;overflow:hidden;}
 .slidesList{width:3000px;margin:0;padding:0;list-style:none;}
-.slidesList li{display:block;width:158px;height:120px;margin:0 10px 0 0;float:left;background:url(images/slideblock.png) 0 0 no-repeat;}
+.slidesList li{display:block;width:158px;min-height:120px;margin:0 10px 0 0;float:left;background:url(images/slideblock.png) 0 0 no-repeat;}
 .slidesList a{text-align:center;text-decoration:none;}
-.slidesList a img{display:block;margin:10px;}
-.slidesList .slideTitle{display:block;line-height:16px;font-size:14px;text-align:center;color:#000000;padding:4px 0 0 0;}
+.slidesList a img{display:block;margin:10px auto 14px auto;min-height:79px;}
+.slidesList .slideTitle{display:block;min-height:18px;line-height:14px;font-size:14px;text-align:center;color:#000000;padding:4px 0 2px 0;background:#d5d1d1;border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;-ms-border-radius:0 0 5px 5px;-o-border-radius:0 0 5px 5px;}
+.slidesList .slideTitle.long{line-height:11px;font-size:12px;padding:0 0 3px 0;}
 .slidesWrapper .prevSlide,
-.slidesWrapper .nextSlide{display:block;width:18px;height:18px;font-size:0;text-decoration:none;position:absolute;top:145px;}
+.slidesWrapper .nextSlide{display:block;width:18px;height:18px;font-size:0;text-decoration:none;position:absolute;bottom:17px;}
 .slidesWrapper .nextSlide{right:475px;background:url(images/nextprev.png) -32px 0 no-repeat;}
 .slidesWrapper .prevSlide{left:475px;background:url(images/nextprev.png) 0 0 no-repeat;}
 
