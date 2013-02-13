@@ -199,13 +199,14 @@ a:hover{color:#234e9c;text-decoration:none;cursor:pointer;}
 .structureWrapper h4{font-weight:bold;font-size:18px;color:#04307e;}
 .structureWrapper .halfCol{width:345px;padding:0 10px 0 0;float:left;}
 .structureList{margin:0;padding:0;list-style:none;}
-.structureListItem{padding:0 0 3px 0;margin:0;display:block;}
-.structureListItemLink{display:block;height:40px;padding:0 10px 0 35px;font-size:18px;line-height:40px;color:#212020;text-decoration:none;background:url(images/structure.png) 10px 3px no-repeat #ffffff;}
-.structureListItem.open .structureListItemLink,
-.structureListItemLink:hover{color:#ffffff;text-decoration:none;background:url(images/structure.png) 10px -42px no-repeat #4b74be;}
+.structureList li{padding:0 0 3px 0;margin:0;display:block;}
+.structureList li a{display:block;height:40px;padding:0 10px 0 35px;font-size:18px;line-height:40px;color:#212020;text-decoration:none;background:url(images/structure.png) 10px 3px no-repeat #ffffff;}
+.structureList li.open a,
+.structureList li a:hover{color:#ffffff;text-decoration:none;background:url(images/structure.png) 10px -42px no-repeat #4b74be;}
 .structureSubList {display:block;margin:0;padding:0 0 4px 0;list-style:none;background:#e2ecfc;}
-.structureSubList .structureSubListItem{display:block;padding:5px 5px 5px 15px;background:url(images/redsquare.png) 5px 12px no-repeat;}
-
+.structureSubList li{display:block;padding:5px 5px 5px 15px;background:url(images/redsquare.png) 5px 12px no-repeat transparent;}
+.structureList li .structureSubList li a{display:inline;height:auto;padding:0;font-size:14px;line-height:20px;color: #234E9C;text-decoration:underline;background:none transparent;}
+.structureList li .structureSubList li a:hover{color:#234E9C;text-decoration:none;background:none transparent;}
 
 .confForm{margin:7px 0;text-align:left;padding:5px;}
 .confForm label{display:block;padding:5px 0 5px 5px;}
