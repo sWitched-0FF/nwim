@@ -234,6 +234,37 @@ a:hover{color:#234e9c;text-decoration:none;cursor:pointer;}
 .videoItem .videoImgLink img{border:0;border-radius:0;margin:0;float:left;} 
 .videoItem .videoTextLink{display:block;text-decoration:none;margin:6px 0;color:#69616d;font-size:11px;line-height:16px;clear:both;}
 
+.photoYears{display:block;width:660px;padding:10px 0;overflow:hidden;}
+.photoYears ul{display:block;margin:0 0 0 30px;padding:0;list-style:none;}
+.photoYears li{display:block;float:left;padding:0 7px;}
+.photoYears a{float:left;line-height:28px;font-size:18px;text-decoration:none;padding:1px 0 0 0;}
+.photoYears .active{font-size:24px;padding:0;}
+
+.photoGalleryWrapper {padding:30px 0 30px 35px;margin:0 0 15px 0;background:#ebeaea;clear:both;}
+.photoGalleryWrapper h4{font-weight:normal;}
+.photoGalleryAlbumsList{margin:0;padding:0;list-style:none;width:655px;position:relative;z-index:2;}
+.photoGalleryAlbumsList li{padding:0 0 3px 0;margin:0;display:block;position:relative;}
+.photoGalleryAlbumsList li a{display:block;width:250px;height:40px;padding:0 35px 0 10px;font-size:18px;line-height:40px;color:#212020;text-decoration:none;background:url(images/structure.png) 265px 3px no-repeat #ffffff;}
+.photoGalleryAlbumsList li.open a,
+.photoGalleryAlbumsList li a:hover{color:#ffffff;text-decoration:none;background:url(images/structure.png) 265px -42px no-repeat #4b74be;}
+.photoGalleryAlbumsSubList {display:block;margin:0;padding:5px 0 8px 0;list-style:none;background:#e2ecfc;position:absolute;top:40px;z-index:1;}
+.photoGalleryAlbumsSubList li{display:block;padding:5px 5px 5px 15px;background:url(images/redsquare.png) 5px 12px no-repeat transparent;}
+.photoGalleryAlbumsList li .photoGalleryAlbumsSubList li a{display:inline;height:auto;padding:0;font-size:14px;line-height:20px;color: #234E9C;text-decoration:underline;background:none transparent;}
+.photoGalleryAlbumsList li .photoGalleryAlbumsSubList li a:hover{color:#234E9C;text-decoration:none;background:none transparent;}
+
+.photoGalleryAlbumsWrapper{width:655px;overflow:hidden;_position:relative;}
+.photoGalleryAlbums{display:block;margin:0;padding:0;width:840px;list-style:none;}
+.photoGalleryAlbumItem{display:block;height:250px;width:295px;margin:10px 0;padding:10px 65px 10px 0;float:left;border-top:1px solid #de7071;zoom:1;}
+.photoGalleryAlbumItem img{border:0;border-radius:0;float:none;}
+.photoGalleryAlbumItem .albumTitle a{color:#212020;font-size:16px;text-decoration:none;}
+
+.gelleryAlbumCover{clear:both;text-align:left;}
+.gelleryAlbumCover img{border:0;border-radius:0;float:none;}
+.photoGalleryAlbumItems{display:block;margin:0;padding:0;width:780px;list-style:none;}
+.photoGalleryAlbumItems li{display:block;height:100px;width:100px;margin:10px 10px 10px 0;float:left;}
+.photoGalleryAlbumItems a{display:block;height:96px;width:96px;padding:1px;border:1px solid #dcdcdc;background:#feffff;border-radius:1px;}
+.photoGalleryAlbumItems img{border:0;border-radius:0;float:none;margin:0;}
+
 /*Footer*/
 .footer{width:980px;height:190px;padding:5px 10px 24px 10px;margin:0px auto 0 auto;overflow:hidden;font:13px/18px "Myriad Pro";color:#ffffff;background:#234e9c;}
 .footer a{color:#ffffff;text-decoration:underline;}
