@@ -283,3 +283,75 @@ a:hover{color:#234e9c;text-decoration:none;cursor:pointer;}
 .footer .socialLinks{width:210px;float:left;}
 .footer .socialLinks ul{margin:0;padding:24px 0 0 0;list-style:none;line-height:22px;}
 .footer .socialLinks a{float:left;margin:0 5px 0 0;}
+
+/*Cabinet*/
+.topCabinet{height:35px;margin:20px 0;line-height:35px;background:#234e9c;clear:both;}
+.topCabinet span{padding:18px 70px 13px 0;text-transform:uppercase;color:#ffffff;font-size:18px;background:url(images/account-icon.png) top right no-repeat;}
+.studentMetaData{margin:0;padding:0 15px 6px 15px;list-style:none;}
+.studentMetaData li{display:inline;margin:12px 18px 12px 0;}
+.studentMetaData .dataTitle{color:#234e9c;font-weight:bold;font-size:15px;}
+.studentInfo{
+margin:12px 0;
+padding:0;
+border-top:1px solid #ffdc4c;
+border-bottom:1px solid #ffdc4c;
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(240,239,239,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(240,239,239,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f0efef',GradientType=0 ); /* IE6-9 */
+}
+.curriculum{display:block;padding:60px 10px 60px 215px;height:40px;width:330px;text-align:left;line-height:40px;float:left;background:url(images/curriculum.png) 50px 20px no-repeat;}
+.curriculum a{font-size:23px;text-decoration:none;}
+.progress{display:block;padding:60px 10px 60px 215px;height:40px;width:170px;text-align:left;line-height:40px;float:left;background:url(images/progress.png) 85px 25px no-repeat;}
+.progress a{font-size:23px;text-decoration:none;}
+.disciplines{display:block;padding:20px 10px 20px 215px;height:120px;width:330px;text-align:left;line-height:30px;float:left;background:url(images/disciplines.png) 45px 20px no-repeat;}
+.disciplines a{display:block;font-size:23px;text-decoration:none;margin:0 0 15px 0;}
+.disciplines a.subLink{font-size:16px;text-decoration:none;margin:0;}
+
+.miniStudentNav{
+padding:15px;
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(240,239,239,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(240,239,239,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f0efef',GradientType=0 ); /* IE6-9 */
+}
+.miniStudentNav .curriculum{padding:20px 10px 10px 150px;height:60px;width:200px;background:url(images/curriculummini.png) 30px 0 no-repeat;}
+.miniStudentNav .curriculum a{font-size:23px;}
+.miniStudentNav .progress{padding:20px 10px 10px 80px;height:60px;width:150px;background:url(images/progressmini.png) 25px 15px no-repeat;}
+.miniStudentNav .progress a{font-size:16px;}
+.miniStudentNav .disciplines{padding:10px 10px 10px 110px;height:70px;width:240px;background:url(images/disciplinesmini.png) 25px 15px no-repeat;}
+.miniStudentNav .disciplines a{font-size:16px;margin:0 0 4px 0;}
+.miniStudentNav .disciplines a.subLink{font-size:14px;margin:0;line-height:16px;}
+
+.curriculumForm{padding:15px;text-align:left;}
+.curriculumForm label{font-size:18px;margin:0 7px 0 0;}
+.curriculumForm input{margin:0 7px;color:#234e9c;border:1px solid #949494;width:92px;height:21px;padding:3px 30px 3px 3px;background:url(images/datearr.png) 95px 0 no-repeat #f2f2f2;}
+
+.curriculumTable{width:100%;margin:15px 0;}
+.curriculumTable thead{background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(240,239,239,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(240,239,239,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(240,239,239,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f0efef',GradientType=0 ); /* IE6-9 */}
+.curriculumTable th{text-align:center;color:#234e9c;padding:5px 3px;}
+.curriculumTable th.cDay span{padding:0 0 0 20px;background:url(images/curriculum-icons.png) -2px -2px no-repeat;}
+.curriculumTable th.cDate span{padding:0 0 0 20px;background:url(images/curriculum-icons.png) -2px -62px no-repeat;}
+.curriculumTable th.cTime span{padding:0 0 0 20px;background:url(images/curriculum-icons.png) -2px -122px no-repeat;}
+.curriculumTable th.cGroup span{padding:0 0 0 20px;background:url(images/curriculum-icons.png) -2px -182px no-repeat;}
+.curriculumTable th.cType span{padding:0 0 0 20px;background:url(images/curriculum-icons.png) -2px -242px no-repeat;}
+.curriculumTable th.cDiscipline span{padding:0 0 0 20px;background:url(images/curriculum-icons.png) -2px -302px no-repeat;}
+.curriculumTable th.cTeacher span{padding:0 0 0 20px;background:url(images/curriculum-icons.png) -2px -362px no-repeat;}
+.curriculumTable th.cAudi span{padding:0 0 0 20px;background:url(images/curriculum-icons.png) -2px -422px no-repeat;}
+.curriculumTable td{padding:5px 3px;}
+.curriculumTable td.left{text-align:left;}
+.curriculumTable .title td{height:30px;padding:15px 0 5px 0;}
+.curriculumTable .title span{padding:10px 0 10px 40px;color:#234e9c;font-size:16px;font-weight:bold;background:url(images/week-icon.png) 0 0 no-repeat;}
+.curriculumTable .odd{background:#dfe1e3;}
