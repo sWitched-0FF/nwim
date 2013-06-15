@@ -40,10 +40,9 @@
 		  buttonPrevHTML: null
 		});
 		$('.structureSubList').hide();
-		$('.structureList > li > a').click(function(){
-			$(this).parent().find('.structureSubList').toggle('fast');
-			$(this).parent().toggleClass('open')
-			return false;
+		$('.structureList > li span').click(function(){
+			$(this).parent().parent().find('.structureSubList').toggle('fast');
+			$(this).parent().parent().toggleClass('open')
 		});
 	  });
 	</script>
@@ -164,7 +163,7 @@
 							<h4>Административные подразделения</h4>
 							<ul class="structureList">
 								<li>
-									<a href="/">Управления</a>
+									<div><span></span><a href="/">Управления</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>
@@ -179,7 +178,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="/">Центры</a>
+									<div><span></span><a href="/">Центры</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>
@@ -194,7 +193,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="/">Отделы</a>
+									<div><span></span><a href="/">Отделы</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>
@@ -209,7 +208,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="/">Издательство</a>
+									<div><span></span><a href="/">Издательство</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>
@@ -224,7 +223,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="/">Медпункт</a>
+									<div><span></span><a href="/">Медпункт</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>
@@ -244,7 +243,7 @@
 							<h4>Учебные подразделения</h4>
 							<ul class="structureList">
 								<li>
-									<a href="/">Факультеты</a>
+									<div><span></span><a href="/">Факультеты</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>
@@ -259,7 +258,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="/">Центры</a>
+									<div><span></span><a href="/">Центры</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>
@@ -274,7 +273,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="/">Отделы</a>
+									<div><span></span><a href="/">Отделы</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>
@@ -289,7 +288,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="/">Социальный техникум</a>
+									<div><span></span><a href="/">Социальный техникум</a></div>
 									<ul class="structureSubList">
 										<li><a href="/">Информационно-библиотечное управление (Научная библиотека)</a></li>
 										<li><a href="/">Управление бухгалтерского учета и финансового контроля</a></li>

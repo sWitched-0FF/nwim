@@ -200,11 +200,20 @@ a:hover{color:#234e9c;text-decoration:none;cursor:pointer;}
 .structureWrapper .halfCol{width:345px;padding:0 10px 0 0;float:left;}
 .structureList{margin:0;padding:0;list-style:none;}
 .structureList li{padding:0 0 3px 0;margin:0;display:block;}
-.structureList li a{display:block;height:40px;padding:0 10px 0 35px;font-size:18px;line-height:40px;color:#212020;text-decoration:none;background:url(images/structure.png) 10px 3px no-repeat #ffffff;}
+.structureList li div{display:block;height:40px;padding:0 10px 0 0;font-size:18px;line-height:40px;color:#212020;text-decoration:none;background:url(images/structure.png) 10px 3px no-repeat #ffffff;}
+.structureList li span{display:block;float:left;height:40px;width:35px;cursor:pointer;}
+.structureList li a{font-size:18px;line-height:40px;color:#212020;text-decoration:none;}
+
+.structureList li div.longText {display:block;height:40px;padding:0 10px 0 0;font-size:14px; font-weight: bold; line-height:40px;color:#212020;text-decoration:none;background:url(images/structure.png) 10px 3px no-repeat #ffffff;}
+.structureList li a.longText {font-size:14px; font-weight: bold; line-height:40px;color:#212020;text-decoration:none;}
+.structureList li.open div,
+.structureList li div:hover{color:#ffffff;text-decoration:none;background:url(images/structure.png) 10px -42px no-repeat #4b74be;}
 .structureList li.open a,
-.structureList li a:hover{color:#ffffff;text-decoration:none;background:url(images/structure.png) 10px -42px no-repeat #4b74be;}
+.structureList li div:hover a{color:#ffffff;text-decoration:none;}
 .structureSubList {display:block;margin:0;padding:0 0 4px 0;list-style:none;background:#e2ecfc;}
 .structureSubList li{display:block;padding:5px 5px 5px 15px;background:url(images/redsquare.png) 5px 12px no-repeat transparent;}
+.structureList li .structureSubList li div{display:inline;height:auto;padding:0;font-size:14px;line-height:20px;color: #234E9C;text-decoration:underline;background:none transparent;}
+.structureList li .structureSubList li span{display:none;}
 .structureList li .structureSubList li a{display:inline;height:auto;padding:0;font-size:14px;line-height:20px;color: #234E9C;text-decoration:underline;background:none transparent;}
 .structureList li .structureSubList li a:hover{color:#234E9C;text-decoration:none;background:none transparent;}
 
